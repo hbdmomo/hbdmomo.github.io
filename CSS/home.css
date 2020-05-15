@@ -42,8 +42,8 @@ abbr {
   background-color: #022533;
 }
 
-/* Add responsiveness - on screens less than 600px, make the navigation links appear on top of each other, instead of next to each other */
-@media screen and (max-width: 600px) {
+/* Add responsiveness - on screens less than 1300px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 1300px) {
   .navbar a {
     float: none;
     display: block;
